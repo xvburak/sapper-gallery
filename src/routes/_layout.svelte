@@ -1,14 +1,14 @@
 <script>
 	import Tailwindcss from '../components/Tailwindcss.svelte';
-	import Nav from '../components/Nav.svelte';
+	// import Nav from '../components/Nav.svelte';
 
-	export let segment;
+	// export let segment;
 </script>
 
 <Tailwindcss />
 
-<Nav {segment}/>
+<!-- <Nav {segment}/> -->
 
-<main class="p-8">
+<main class="p-4 font-mono">
 	<slot></slot>
 </main>
